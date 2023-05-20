@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.sidebar{
+    background: #ddd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.sidebar .titleSide{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.sidebar .titleSide img{
+    display: flex;
+    width: 55%;
+    height: auto;
+    margin: 0 auto;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    display: block;
+    padding: 13px 30px;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+}
+
+li a .icon{
+    color: #000;
+    width: 30px;
+    display: inline-block;
+}
