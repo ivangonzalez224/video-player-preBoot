@@ -42,3 +42,53 @@ li a .icon{
     width: 30px;
     display: inline-block;
 }
+
+.divTopBar{
+    padding-top: 3% 0 3% 0;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    top: 0;
+    margin-left: 20%;
+    width: 80%;
+  }
+
+  .inputBuscar{ 
+    background-color: #fff;
+    border-color: #aaa;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left; 
+    width: 65%;
+  }
+
+  #searchbar{
+    padding: 1%;
+    border-radius: 5px;
+  }
+
+  input[type=text] {
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+    flex-grow : 1;
+    font-size: 0.9rem;
+    border: none;
+  }
+
+  .botBuscar{
+    font-size: 0.9rem;
+    color: #aaa;
+    align-self: center;
+    margin-right: 3%;
+  }
+
+.divTopBar span {
+    margin-right: 3%;    
+}
