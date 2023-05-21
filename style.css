@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-.sidebar{
+body {
+    width: 100vw;
+    height:100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .boxTotal{
+    padding-top: 3% 0 3% 0;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+  
+.navbar{
     background: #ddd;
     position: fixed;
     top: 0;
@@ -11,12 +30,12 @@
     transition: all 0.5s ease;
 }
 
-.sidebar .titleSide{
+.navbar .titleSide{
     margin-bottom: 5%;
     text-align: center;
 }
 
-.sidebar .titleSide img{
+.navbar .titleSide img{
     display: flex;
     width: 55%;
     height: auto;
@@ -43,19 +62,26 @@ li a .icon{
     display: inline-block;
 }
 
-.divTopBar{
+.divContentTotal{
     padding-top: 3% 0 3% 0;
+    background-color: #fff;
+    width: 80%;
+    height: auto;    
+}
+
+.divTopBar{
+    padding: 1% 0 1% 0;
     background-color: #fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; 
-    top: 0;
-    margin-left: 20%;
-    width: 80%;
+    align-items: center;
+    margin-left: 5%;
+    width: 100%;
+    height: auto;
   }
 
-  .inputBuscar{ 
+.inputBuscar{ 
     background-color: #fff;
     border-color: #aaa;
     border-width: 1px;
@@ -69,12 +95,12 @@ li a .icon{
     width: 65%;
   }
 
-  #searchbar{
+#searchbar{
     padding: 1%;
     border-radius: 5px;
   }
 
-  input[type=text] {
+input[type=text] {
     -webkit-transition: width 0.15s ease-in-out;
     transition: width 0.15s ease-in-out;
     flex-grow : 1;
@@ -82,7 +108,7 @@ li a .icon{
     border: none;
   }
 
-  .botBuscar{
+.botBuscar{
     font-size: 0.9rem;
     color: #aaa;
     align-self: center;
@@ -91,4 +117,97 @@ li a .icon{
 
 .divTopBar span {
     margin-right: 3%;    
+}
+
+.divcontent{
+    padding-top: 3% 0 3% 0;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left; 
+    top: 0;
+    margin-left: 15%;
+    width: 100%;
+    height: auto;
+}
+
+.divPlayer{
+    width: 60%;
+    margin-right: 3%;    
+}
+
+.divPlayer span{
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.dataCanal{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;    
+}
+
+.divNomsChanel{
+    margin-right: 3%;
+}
+
+.descripVideo{
+    display: flex;
+    align-items: center;
+    width: 100%;    
+}
+
+.btn{
+    border: 1px solid black;
+    background-color: #fff;
+    border-color: #aaa;
+    border-radius: 15px;
+    padding: 1% 2% 1% 2%;
+    font-size: 15px;
+}
+.botUnirse{
+     width: 12%; 
+}
+
+.botSubscri{
+    background-color: #000;
+    color: #fff;
+    width: 19%;
+    margin: 0 1% 0 2%;  
+}
+
+.botShare{
+    border-color: #eee;
+    background-color: #eee;    
+}
+
+.botShare i{
+    margin-right: 10px;
+}
+
+.botsLikes{
+    background-color: #eee;
+    border-radius: 15px;
+    width: 20%;
+    padding: 1% 2% 1% 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.botsLikes span{
+    color: #bbb;
+}
+
+.botLike, .botDislike{
+    border: none;
+    background-color: #eee;
+    padding: 0;
+}
+
+.botLike i{
+    margin-right: 10px;
 }
