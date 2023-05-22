@@ -133,8 +133,7 @@ input[type=text] {
 }
 
 .divPlayer{
-    width: 60%;
-    margin-right: 3%;    
+    width: 57%;    
 }
 
 .divPlayer span{
@@ -210,4 +209,43 @@ input[type=text] {
 
 .botLike i{
     margin-right: 10px;
+}
+
+.divSideVid{
+    padding: 1% 2% 1% 2%;
+    width: 38%;
+}
+
+.sideContenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.sideContenedor img{
+    width: 48%;
+    margin-right: 2%;
+}
+
+.titVideoSide{
+    font-weight: bold;
+}
+
+.nomChanel{
+    color: #666;
+    font-size: 90%;
+}
+
+.divVistas span{
+    color: #666;
+    margin-right: 2%;
+    font-size: 90%;
+}
+
+.descripThum{
+    text-align: left;
+    width: 48%;    
 }
